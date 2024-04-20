@@ -1,0 +1,149 @@
+#main-home {
+  width: 100%;
+  height: calc(100vh - 75px);
+  background-color: #4F4032;
+  overflow: hidden;
+  position: relative;
+}
+
+#main-home .item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url(../../images/home-bg.webp);
+  background-position: center;
+}
+
+#main-home .main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 50px;
+  right: 50px;
+}
+
+#main-home .container {
+  text-align: center;
+}
+
+#main-home #main-title {
+  color: #D2B48C;
+  margin-bottom: 50px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 700; 
+  font-size: 64px;
+}
+
+#main-home #main-title-2 {
+  color: #fff;
+}
+
+#main-home .btn:hover {
+  background-color: #E6CBA6; 
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+#main-home .btn {
+  color: #FFFFFF; 
+  background-color: #D2B48C; 
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+#main-home p {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Jost', sans-serif;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+#card-issue {
+  margin-bottom: 100px;
+}
+
+#card-issue #card-topic {
+  color: #D2B48C;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500; 
+  padding: 50px;
+  font-size: 48px;
+  text-align: center;
+}
+
+#card-issue .card-body {
+  color: #4F4032;
+}
+
+.card-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+#card-issue .btn:hover {
+  color: #FFFFFF; 
+  background-color: #E6CBA6; 
+
+}
+
+#card-issue .btn {
+  color: #FFFFFF; 
+  background-color: #D2B48C; 
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  #main-home #main-title {
+    font-size: 50px;
+  }
+
+  #main-home #main-title-2 {
+    font-size: 50px;
+  }
+
+  #main-home p {
+    font-size: 20px;
+  }
+
+  #main-home .btn:hover {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  #main-home .btn {
+    color: #FFFFFF; 
+    background-color: #D2B48C; 
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (max-height: 500px) {
+
+}
