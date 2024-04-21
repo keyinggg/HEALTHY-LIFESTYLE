@@ -97,7 +97,7 @@
   <!-- Card Section -->
   <section id="card-list" class="py-5">
     <div class="container">
-      <p id="card-topic">Commmon Sleep Disorders</p>
+      <p id="card-topic">Common Sleep Disorders</p>
       <p id="card-subtopic">Explore the realm of sleep disorders and their impact on your nightly rest.</p>
       <!-- <div id="carousel-control" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
