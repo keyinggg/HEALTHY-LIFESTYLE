@@ -41,7 +41,7 @@
               <li>Controls weight</li>
               <li>Boosts mental health</li>
               <li>Combats health conditions and diseases</li>
-              <li>Improves brain fucntion</li>
+              <li>Improves brain function</li>
               <li>Promotes mood and energy</li>
               <li>Strengthens mobility and flexibility</li>
             </ul>
