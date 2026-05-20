@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   justify-content: start;
   align-items: center;
-  height: calc(100vh - 75px);
+  height: calc(100vh - 200px);
   background-image: url('../../images/sleephygiene-bg.gif');
 }
 
@@ -23,15 +23,15 @@
   height: 100%;
 }
 
-#main-sleephygiene #main-title {
+#main-sleephygiene .main-title {
   font-family: 'Jost', sans-serif;
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 64px;
   color: #fff;
   margin-bottom: 30px;
 }
 
-#main-sleephygiene #main-title-2 {
+#main-sleephygiene .main-title-2 {
   color: #D2B48C;
   font-size: 64px;
 }
@@ -48,6 +48,7 @@
   padding: 10px 20px;
   font-size: 20px;
 }
+
 #main-sleephygiene .btn:hover {
   color: #4F4032;
   background-color: #D2B48C;
@@ -78,7 +79,7 @@
 
 #content-sleephygiene .content img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -99,7 +100,7 @@
 
 #content-sleephygiene .content-2 img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -153,32 +154,93 @@
   padding: 20px;
 }
 
-#card-list.card-text {
+#card-list .card-text {
   text-align: justify;
 }
 
 #card-list .btn:hover {
-  color: #FFFFFF; 
-  background-color: #635144; 
+  color: #FFFFFF;
+  background-color: #635144;
 }
 
 #card-list .btn {
-  color: #FFFFFF; 
-  background-color: #4F4032; 
+  color: #FFFFFF;
+  background-color: #4F4032;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) {}
 
-}
-  
 @media (max-width: 768px) {
-    
-}
-  
-@media (min-width: 1024px) {
+  #main-sleephygiene {
+    padding: 2rem;
+  }
 
-}
-  
-@media (max-height: 500px) {
+  #main-sleephygiene .main-title {
+    font-size: 32px;
+  }
 
+  #main-sleephygiene .main-title-2 {
+    font-size: 32px;
+  }
+
+  #main-sleephygiene .btn {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  #main-sleephygiene .btn:hover {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  #content-sleephygiene .content {
+    padding: 20px;
+  }
+
+  #content-sleephygiene .content h2 {
+    padding-left: 0;
+  }
+
+  #content-sleephygiene .content p {
+    padding: 0;
+    font-size: 16px;
+  }
+
+  #content-sleephygiene .content img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #content-sleephygiene .content-2 .btn {
+    font-size: 16px;
+  }
+
+  #content-sleephygiene .content-2 img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #content-sleephygiene .content-2 {
+    padding: 20px;
+  }
+
+  #content-sleephygiene .content-2 h2 {
+    padding-left: 0;
+  }
+
+  #card-list {
+    padding: 0;
+  }
+
+  #card-list #card-topic {
+    font-size: 24px;
+  }
+
+  #card-list #card-subtopic {
+    font-size: 16px;
+  }
 }
+
+@media (min-width: 1024px) {}
+
+@media (max-height: 500px) {}

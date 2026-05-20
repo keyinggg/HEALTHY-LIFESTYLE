@@ -4,12 +4,12 @@
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
       <div class="main-container">
         <div class="container">
-          <h1 id="main-title" class="mb3">Nu<span id="main-title-2">trition</span></h1>
-          <h4 id="main-subtitle" class="mb3">Health is wealth, and it starts with what you eat.</h4>
+          <h1 class="main-title mb-3">Nu<span class="main-title-2">trition</span></h1>
+          <h4 id="main-subtitle" class="mb-3">Health is wealth, and it starts with what you eat.</h4>
           <a class="btn" href="#content-nutrition">Learn More</a>
         </div>
       </div>
-    <div>
+    </div>
   </section>
 
   <!-- Content Section -->

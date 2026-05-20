@@ -1,10 +1,10 @@
   <!-- home.inc.php -->
   <!-- Main Section -->
-  <section id="main-home">
+  <section class="main-home">
     <div class="item">
       <div class="main-container">
         <div class="container">
-          <h2 id="main-title" class="animate__animated animate__fadeInDown">Lively<span id="main-title-2">Life</span></h2>
+          <h2 class="main-title animate__animated animate__fadeInDown">Lively<span class="main-title-2">Life</span></h2>
           <div class="animate__animated animate__fadeInUp">
             <p>Imagine a life where every meal is a celebration of flavor and nutrition,</p>
             <p>every workout is an exhilarating adventure,</p>
@@ -16,12 +16,12 @@
     </div>
   </section>
 
-  <section id="main-home">
+  <section class="main-home">
       <div class="main-container">
         <div class="container">
-          <h2 id="main-title" class="animate__animated animate__fadeIn position">What is<span id="main-title-2"> HEALTHY LIFESTYLE?</span></h2>
+          <h2 class="main-title animate__animated animate__fadeIn position">What is<span class="main-title-2"> HEALTHY LIFESTYLE?</span></h2>
           <div class="animate__animated animate__fadeIn">
-            <p class="text-justify">Healthy lifestyle means staying fit, being energetic and not being at the risk of having any disease. Eating nutritional food, exercising regularly and having sufficient amount of sleep is the key factors to living heathily. But how do we live a healthy lifestyle and what is counted as a healthy lifestyle?</p>
+            <p class="text-justify">Healthy lifestyle means staying fit, being energetic and not being at the risk of having any disease. Eating nutritional food, exercising regularly and having sufficient amount of sleep is the key factors to living healthily. But how do we live a healthy lifestyle and what is counted as a healthy lifestyle?</p>
             <a href="#card-issue" class="btn">Learn More</a>
           </div>
         </div>
@@ -70,7 +70,7 @@
           <div class="col-md-8 order-md-2 d-flex align-items-center">
             <div class="card-body">
               <h3 class="card-title">Physical Activity</h3>
-              <p class="card-text">Turn exercise into an adventure! Gets tips to help you get more active.</p>
+              <p class="card-text">Turn exercise into an adventure! Get tips to help you get more active.</p>
               <a href="physicalactivity.php" class="btn">Read More</a>
             </div>
           </div>

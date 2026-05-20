@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   justify-content: start;
   align-items: center;
-  height: calc(100vh - 75px);
+  height: calc(100vh - 200px);
   background-image: url('../../images/physicalactivity-bg.gif');
 }
 
@@ -23,15 +23,15 @@
   height: 100%;
 }
 
-#main-physicalactivity #main-title {
+#main-physicalactivity .main-title {
   font-family: 'Jost', sans-serif;
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 64px;
   color: #fff;
   margin-bottom: 30px;
 }
 
-#main-physicalactivity #main-title-2 {
+#main-physicalactivity .main-title-2 {
   color: #D2B48C;
   font-size: 64px;
 }
@@ -79,7 +79,7 @@
 
 #content-physicalactivity .content img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -111,7 +111,7 @@
 
 #content-physicalactivity .content-2 img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -132,7 +132,7 @@
 
 #content-physicalactivity .content-3 img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -155,7 +155,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  color: #4F4032; 
+  color: #4F4032;
   font-weight: bold;
   padding: 20px;
   margin-bottom: 20px;
@@ -167,18 +167,94 @@
   padding: 80px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) {}
 
-}
-  
 @media (max-width: 768px) {
-    
-}
-  
-@media (min-width: 1024px) {
+  #main-physicalactivity {
+    padding: 2rem;
+  }
 
-}
-  
-@media (max-height: 500px) {
+  #main-physicalactivity .main-title {
+    font-size: 32px;
+  }
 
+  #main-physicalactivity .main-title-2 {
+    font-size: 32px;
+  }
+
+  #main-physicalactivity .btn {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  #main-physicalactivity .btn:hover {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  #content-physicalactivity .content {
+    padding: 20px;
+  }
+
+  #content-physicalactivity .content h2 {
+    padding-left: 0;
+  }
+
+  #content-physicalactivity .content p {
+    padding: 0;
+    font-size: 16px;
+  }
+
+  #content-physicalactivity .content img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #content-physicalactivity .content-2 {
+    padding: 20px;
+  }
+
+  #content-physicalactivity .content-2 h2 {
+    padding-left: 0;
+  }
+
+  #content-physicalactivity .content-2 li {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 16px;
+  }
+
+  #content-physicalactivity .content-2 img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #content-physicalactivity .content-3 .btn {
+    font-size: 16px;
+  }
+
+  #content-physicalactivity .content-3 img {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #content-physicalactivity .content-3 {
+    padding: 20px;
+  }
+
+  #content-physicalactivity .content-3 h2 {
+    padding-left: 0;
+  }
+
+  #img-carousel .carousel-title {
+    padding: 0;
+  }
+
+  #img-carousel .carousel-container {
+    padding: 50px;
+  }
 }
+
+@media (min-width: 1024px) {}
+
+@media (max-height: 500px) {}

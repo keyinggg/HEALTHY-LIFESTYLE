@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   justify-content: start;
   align-items: center;
-  height: calc(100vh - 75px);
+  height: calc(100vh - 200px);
   background-image: url('../../images/nutrition-bg.gif');
 }
 
@@ -23,15 +23,15 @@
   height: 100%;
 }
 
-#main-nutrition #main-title {
+#main-nutrition .main-title {
   font-family: 'Jost', sans-serif;
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 64px;
   color: #fff;
   margin-bottom: 30px;
 }
 
-#main-nutrition #main-title-2 {
+#main-nutrition .main-title-2 {
   color: #D2B48C;
   font-size: 64px;
 }
@@ -48,6 +48,7 @@
   padding: 10px 20px;
   font-size: 20px;
 }
+
 #main-nutrition .btn:hover {
   color: #4F4032;
   background-color: #D2B48C;
@@ -78,7 +79,7 @@
 
 #content-nutrition .content img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -107,7 +108,7 @@
 
 #content-nutrition .content-2 img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -148,27 +149,90 @@
 }
 
 #card-carousel .btn:hover {
-  color: #FFFFFF; 
-  background-color: #635144; 
+  color: #FFFFFF;
+  background-color: #635144;
 }
 
 #card-carousel .btn {
-  color: #FFFFFF; 
-  background-color: #4F4032; 
+  color: #FFFFFF;
+  background-color: #4F4032;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) {}
 
-}
-  
 @media (max-width: 768px) {
-    
-}
-  
-@media (min-width: 1024px) {
+  #main-nutrition {
+    padding: 2rem;
+  }
 
-}
-  
-@media (max-height: 500px) {
+  #main-nutrition .main-title {
+    font-size: 32px;
+  }
 
+  #main-nutrition .main-title-2 {
+    font-size: 32px;
+  }
+
+  #main-nutrition .btn {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  #main-nutrition .btn:hover {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  #content-nutrition .content {
+    padding: 20px;
+  }
+
+  #content-nutrition .content h2 {
+    padding-left: 0;
+  }
+
+  #content-nutrition .content p {
+    padding: 0;
+    font-size: 16px;
+  }
+
+  #content-nutrition .content img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #content-nutrition .content-2 {
+    padding: 20px;
+  }
+
+  #content-nutrition .content-2 h2 {
+    padding-left: 0;
+  }
+
+  #content-nutrition .content-2 p {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+  }
+
+  #content-nutrition .content-2 img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #card-carousel {
+    padding: 0;
+  }
+
+  #card-carousel #card-topic {
+    font-size: 24px;
+  }
+
+  #card-carousel #card-subtopic {
+    font-size: 16px;
+  }
 }
+
+@media (min-width: 1024px) {}
+
+@media (max-height: 500px) {}

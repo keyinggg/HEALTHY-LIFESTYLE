@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   justify-content: start;
   align-items: center;
-  height: calc(100vh - 75px);
+  height: calc(100vh - 200px);
   background-image: url('../../images/relationships-bg.gif');
 }
 
@@ -23,15 +23,15 @@
   height: 100%;
 }
 
-#main-relationships #main-title {
+#main-relationships .main-title {
   font-family: 'Jost', sans-serif;
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 64px;
   color: #fff;
   margin-bottom: 30px;
 }
 
-#main-relationships #main-title-2 {
+#main-relationships .main-title-2 {
   color: #D2B48C;
   font-size: 64px;
 }
@@ -79,7 +79,7 @@
 
 #content-relationships .content img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -100,7 +100,7 @@
 
 #content-relationships .content-2 img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -135,7 +135,7 @@
 
 #content-relationships .content-3 img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -154,18 +154,89 @@
   font-family: 'Jost', sans-serif;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) {}
 
-}
-  
 @media (max-width: 768px) {
-    
-}
-  
-@media (min-width: 1024px) {
+  #main-relationships {
+    padding: 2rem;
+  }
 
-}
-  
-@media (max-height: 500px) {
+  #main-relationships .main-title {
+    font-size: 32px;
+  }
 
+  #main-relationships .main-title-2 {
+    font-size: 32px;
+  }
+
+  #main-relationships .btn {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  #main-relationships .btn:hover {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  #content-relationships .content {
+    padding: 20px;
+  }
+
+  #content-relationships .content h2 {
+    padding-left: 0;
+  }
+
+  #content-relationships .content p {
+    padding: 0;
+    font-size: 16px;
+  }
+
+  #content-relationships .content img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #content-relationships .content-2 .btn {
+    font-size: 16px;
+  }
+
+  #content-relationships .content-2 img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #content-relationships .content-2 {
+    padding: 20px;
+  }
+
+  #content-relationships .content-2 h2 {
+    padding-left: 0;
+  }
+
+  #content-relationships .content-3 .card {
+    border-width: 3px;
+    border-color: #D2B48C;
+  }
+
+  #content-relationships .content-3 .btn {
+    font-size: 16px;
+  }
+
+  #content-relationships .content-3 img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #content-relationships .content-3 {
+    padding: 20px;
+  }
+
+  #content-relationships .content-3 h2 {
+    padding-left: 0;
+  }
 }
+
+@media (min-width: 1024px) {}
+
+@media (max-height: 500px) {}
