@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4F4032;">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #4F4032;">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="index.php">
   <img src="images/navbar-logo.png" alt="LivelyLife Logo" width="30" height="30">

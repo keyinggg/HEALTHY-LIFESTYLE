@@ -116,7 +116,7 @@
             <div class="card-body">
               <h5 class="card-title">Generalized Anxiety Disorder (GAD)</h5>
               <p class="card-text">Generalized anxiety disorder is characterized by excessive, uncontrollable worry or anxiety about everyday things. Individuals with GAD may experience persistent anxiety, tension, and physical symptoms such as fatigue, and muscle tension.</p>
-              <a href="https://youtu.be/9mPwQTiMSj8?si=zW0O2zaiHtURPQ_d" target="_blank" class="btn">Watch now</a>
+              <a href="https://youtu.be/9mPwQTiMSj8?si=zW0O2zaiHtURPQ_d" rel="noopener noreferrer" target="_blank" class="btn">Watch now</a>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@
             <div class="card-body">
               <h5 class="card-title">Obsessive-Compulsive Disorder (OCD)</h5>
               <p class="card-text">Obsessive-compulsive disorder involves recurring, unwanted thoughts (obsessions) and repetitive behaviors or mental acts (compulsions). These obsessions and compulsions can significantly interfere with daily activities and cause distress.</p>
-              <a href="https://youtu.be/I8Jofzx_8p4?si=-RgJueqm_3-Y0WGn" target="_blank" class="btn">Watch now</a>
+              <a href="https://youtu.be/I8Jofzx_8p4?si=-RgJueqm_3-Y0WGn" rel="noopener noreferrer" target="_blank" class="btn">Watch now</a>
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
             <div class="card-body">
               <h5 class="card-title">Post-Traumatic Stress Disorder (PTSD)</h5>
               <p class="card-text">Post-traumatic stress disorder is a mental health condition triggered by experiencing or witnessing a traumatic event. Symptoms may include flashbacks, nightmares, severe anxiety, and uncontrollable thoughts about the event.</p>
-              <a href="https://youtu.be/hzSx4rMyVjI?si=g8e283BrRybb2IjC" target="_blank" class="btn">Watch now</a>
+              <a href="https://youtu.be/hzSx4rMyVjI?si=g8e283BrRybb2IjC" rel="noopener noreferrer" target="_blank" class="btn">Watch now</a>
             </div>
           </div>
         </div>
@@ -148,7 +148,7 @@
             <div class="card-body">
               <h5 class="card-title">Bipolar Disorder</h5>
               <p class="card-text">Bipolar disorder is a mood disorder characterized by alternating episodes of mania or hypomania (elevated mood) and depression (low mood). Bipolar I involves manic episodes, while bipolar II involves hypomanic and depressive episodes.</p>
-              <a href="https://youtu.be/KSvk8LLBo2g?si=Oi1Kvaz-bHanqrXE" target="_blank" class="btn">Watch now</a>
+              <a href="https://youtu.be/KSvk8LLBo2g?si=Oi1Kvaz-bHanqrXE" rel="noopener noreferrer" target="_blank" class="btn">Watch now</a>
             </div>
           </div>
         </div>
@@ -158,7 +158,7 @@
             <div class="card-body">
               <h5 class="card-title">Panic Disorder</h5>
               <p class="card-text">Panic disorder is characterized by recurrent, unexpected panic attacks. These are sudden episodes of intense fear or discomfort, accompanied by physical symptoms such as rapid heart rate, sweating, trembling, and shortness of breath.</p>
-              <a href="https://youtu.be/YxELZyA2bJs?si=ubXJ7vuTjHQYJlgr" target="_blank" class="btn">Watch now</a>
+              <a href="https://youtu.be/YxELZyA2bJs?si=ubXJ7vuTjHQYJlgr" rel="noopener noreferrer" target="_blank" class="btn">Watch now</a>
             </div>
           </div>
         </div>
@@ -168,7 +168,7 @@
             <div class="card-body">
               <h5 class="card-title">Dissociative Disorders</h5>
               <p class="card-text">Dissociative disorders encompass a range of conditions characterized by disruptions or gaps in memory, identity, consciousness, or perception. Symptoms may include amnesia, depersonalization, derealization, or identity confusion.</p>
-              <a href="https://youtu.be/XF2zeOdE5GY?si=mVI2GtcrDrLrIMPG" target="_blank" class="btn">Watch now</a>
+              <a href="https://youtu.be/XF2zeOdE5GY?si=mVI2GtcrDrLrIMPG" rel="noopener noreferrer" target="_blank" class="btn">Watch now</a>
             </div>
           </div>
         </div>

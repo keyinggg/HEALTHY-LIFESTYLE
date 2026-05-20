@@ -87,11 +87,17 @@
 #content-mentalhealth .content-2 .card {
   border-width: 3px;
   border-color: #D2B48C;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
 }
 
 #content-mentalhealth .content-2 .btn {
   color: #4F4032;
   font-size: 20px;
+  text-align: left;
 }
 
 #content-mentalhealth .content-2 .btn:hover {
@@ -144,6 +150,11 @@
 
 #card-list-1 .card {
   border: 0;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
 }
 
 #card-list-1 .container {
@@ -239,6 +250,14 @@
   #card-list-1 #card-subtopic {
     font-size: 16px;
 
+  }
+
+  #card-list-1 .card {
+    width: 100%;
+  }
+
+  #content-mentalhealth .content-2 .card {
+    width: 100%;
   }
 }
 

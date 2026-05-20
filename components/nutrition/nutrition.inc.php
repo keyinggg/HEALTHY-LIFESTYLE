@@ -48,7 +48,7 @@
     <div class="container">
       <p id="card-topic">Nutrition Videos</p>
       <p id="card-subtopic">Nutrition is the foundation of good health. Build wisely.</p>
-      <div id="carousel-control" class="carousel slide" data-bs-ride="carousel">
+      <div id="carousel-control" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
@@ -99,11 +99,63 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-control" data-bs-slide="prev" style="left: -100px;">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-control" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-control" data-bs-slide="next" style="right: -100px;">
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-control" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="carousel-control-mobile" class="carousel slide d-md-none" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card mb-5">
+              <img src="images/nutrition-card1.jpg" class="card-img-top" alt="how to use the nutrition facts label">
+              <div class="card-body">
+                <h5 class="card-title">How to Use the Nutrition Facts Label</h5>
+                <p class="card-text">Master the art of reading nutrition labels to make healthier decisions about the foods you consume.</p>
+                <a href="https://youtu.be/I5NA-BDoEUM?si=ahayUbLysISc0mkx" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card mb-5">
+              <img src="images/nutrition-card2.jpg" class="card-img-top" alt="food groups and nutrition">
+              <div class="card-body">
+                <h5 class="card-title">Food Groups and Nutrition</h5>
+                <p class="card-text">Learn about the recommended servings of food groups and their contribution to a nutritious diet.</p>
+                <a href="https://youtu.be/Z51bWG17m-Q?si=Ackt0H_l04NlPfgr" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card mb-5">
+              <img src="images/nutrition-card3.jpg" class="card-img-top" alt="nutrition eats">
+              <div class="card-body">
+                <h5 class="card-title">Nutrition Eats</h5>
+                <p class="card-text">Delve into the world of nutrition with exciting recipes and meal ideas that prioritize health and taste.</p>
+                <a href="https://youtu.be/OBcvAg0ZSco?si=g-EPj_MMDi8iaXCU" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card mb-5">
+              <img src="images/nutrition-card4.jpg" class="card-img-top" alt="beginners guide to healthy eating">
+              <div class="card-body">
+                <h5 class="card-title">Beginners Guide to Healthy Eating</h5>
+                <p class="card-text">Equip yourself with the essential knowledge and strategies needed to adopt a balanced approach to nutrition.</p>
+                <a href="https://youtu.be/jwWpTAXu-Sg?si=V6odgMI4OXXxofcx" class="btn">Watch now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-control-mobile" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-control-mobile" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>

@@ -119,11 +119,17 @@
 #content-physicalactivity .content-3 .card {
   border-width: 3px;
   border-color: #D2B48C;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
 }
 
 #content-physicalactivity .content-3 .btn {
   color: #4F4032;
   font-size: 20px;
+  text-align: left;
 }
 
 #content-physicalactivity .content-3 .btn:hover {
@@ -252,6 +258,10 @@
 
   #img-carousel .carousel-container {
     padding: 50px;
+  }
+
+  #content-physicalactivity .content-3 .card {
+    width: 100%;
   }
 }
 

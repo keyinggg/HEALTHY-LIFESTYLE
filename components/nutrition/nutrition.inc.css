@@ -138,6 +138,11 @@
 
 #card-carousel .card {
   border: 0;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
 }
 
 #card-carousel .container {
@@ -156,6 +161,14 @@
 #card-carousel .btn {
   color: #FFFFFF;
   background-color: #4F4032;
+}
+
+#card-carousel .carousel-control-prev {
+  left: -100px;
+}
+
+#card-carousel .carousel-control-next {
+  right: -100px;
 }
 
 @media (max-width: 992px) {}
@@ -230,6 +243,14 @@
 
   #card-carousel #card-subtopic {
     font-size: 16px;
+  }
+
+  #card-carousel .carousel-control-prev {
+    left: -20px;
+  }
+
+  #card-carousel .carousel-control-next {
+    right: -20px;
   }
 }
 

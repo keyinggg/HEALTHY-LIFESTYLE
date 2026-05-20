@@ -109,7 +109,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Sleep Apnea</h5>
                     <p class="card-text">Sleep apnea is a condition that affects your breathing during sleep. It causes your breathing to stop and restart and can make it hard for your body to get enough oxygen. The episodes of disrupted breathing generally last at least 10 seconds and occur frequently throughout the night.</p>
-                    <a href="https://youtu.be/IMON9zmViu4?si=SVcqjDmobicz9ih5" target="_blank" class="btn">Watch now</a>
+                    <a href="https://youtu.be/IMON9zmViu4?si=SVcqjDmobicz9ih5" rel="noopener noreferrer" " class="btn">Watch now</a>
                   </div>
                 </div>
               </div>
@@ -119,7 +119,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Insomnia</h5>
                     <p class="card-text">Insomnia affects your ability to fall asleep, stay asleep or get good sleep. People with insomnia can experience excessive daytime sleepiness as a result of sleep challenges, which can make it difficult to function throughout the day. Insomnia can also affect memory and cognitive skills.</p>
-                    <a href="https://youtu.be/gIwU5INBV_0?si=MXgHT6fXzZzM8PCT" target="_blank" class="btn">Watch now</a>
+                    <a href="https://youtu.be/gIwU5INBV_0?si=MXgHT6fXzZzM8PCT" rel="noopener noreferrer" target="_blank" class="btn">Watch now</a>
                   </div>
                 </div>
               </div>
@@ -129,7 +129,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Narcolepsy</h5>
                     <p class="card-text">Narcolepsy is a chronic, debilitating sleep disorder characterized by excessive daytime sleepiness and disrupted sleep-wake cycles. People with narcolepsy experience “sleep attacks” where you fall asleep for short periods unintentionally despite fighting the urge to sleep.</p>
-                    <a href="https://youtu.be/1leITfv4CG0?si=xfsvijmK_ifF-UDB" target="_blank" class="btn">Watch now</a>
+                    <a href="https://youtu.be/1leITfv4CG0?si=xfsvijmK_ifF-UDB" rel="noopener noreferrer" target="_blank" class="btn">Watch now</a>
                   </div>
                 </div>
               </div>
